@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+canvas { 
+  background: #eee; 
+  display: block; 
+  margin: 0 auto; 
+  border-radius: 25px;
+}
+.scoreBoard{
+  height: 75px;
+  width: 200px;
+  margin-bottom: 15px;
+  background-color: rgb(231, 231, 231);
+}
+.score{
+  color: black;
+}
