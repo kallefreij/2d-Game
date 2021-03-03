@@ -9,6 +9,7 @@ function App() {
             <span>1</span>
             <span>:</span>
             <span>2</span>
+            <div>Test</div>
           </div>
         </div>
         <canvas id="myCanvas" width="720" height="320"></canvas>
