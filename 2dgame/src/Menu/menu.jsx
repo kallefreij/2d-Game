@@ -1,6 +1,7 @@
 import react from 'react';
 import { Grid, Button } from "@material-ui/core";
 import styles from '../Menu/menu.css'
+import { NavLink } from "react-router-dom";
 
 function Menu() {
     return(
@@ -14,7 +15,9 @@ function Menu() {
                     spacing={5}
                 >
                     <Grid item>
+                    <NavLink to="/play">
                         <p class="buttonText">PLAY</p>
+                    </NavLink>                       
                     </Grid>
                     <Grid item>
                         <p class="buttonText">STATS</p>
