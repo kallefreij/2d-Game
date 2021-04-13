@@ -15,21 +15,29 @@ function Menu() {
                     spacing={5}
                 >
                     <Grid item>
-                    <NavLink to="/play">
-                        <p class="buttonText">PLAY</p>
-                    </NavLink>                       
+                        <NavLink to="/play" style={{textDecoration: 'none'}}>
+                            <p class="buttonText">PLAY</p>
+                        </NavLink>                       
                     </Grid>
                     <Grid item>
-                        <p class="buttonText">STATS</p>
+                        <NavLink to="/stats" class="buttonText">
+                            <p>STATS</p>
+                        </NavLink>                        
                     </Grid>
                     <Grid item>
-                        <p class="buttonText">ABOUT</p>
+                        <NavLink to="/about" class="buttonText">
+                            <p>ABOUT</p>
+                        </NavLink>
                     </Grid>
                     <Grid item>
-                        <p class="buttonText">STORE</p>
+                        <NavLink to="/store" class="buttonText">
+                            <p>STORE</p>
+                        </NavLink>
                     </Grid>
                     <Grid item>
-                        <p class="buttonText">SETTINGS</p>
+                        <NavLink to="/settings" class="buttonText">
+                            <p>SETTINGS</p>
+                        </NavLink>
                     </Grid>
                 </Grid>
                 {/* <canvas></canvas> */}
