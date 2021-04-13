@@ -23,6 +23,9 @@ function App() {
           <Route exact path="/about" component={About}></Route>
           <Route exact path="/store" component={Store}></Route>
           <Route exact path="/settings" component={Settings}></Route>
+          <Route exact path="/*">
+              <Redirect to="/menu" />
+          </Route>
         </Switch>   
       </Router>   
     </div>
