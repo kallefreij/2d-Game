@@ -13,6 +13,7 @@ function Menu() {
                     justify="center"
                     alignItems="center"
                     spacing={5}
+                    style={{widht:'100%'}}
                 >
                     <Grid item>
                         <NavLink to="/play" style={{textDecoration: 'none'}}>
