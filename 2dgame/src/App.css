@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+
+* {
+  font-family: Abel;
+}
+
 .App {
   text-align: center;
 }
@@ -37,18 +43,18 @@
   }
 }
 
-canvas { 
-  background: #eee; 
-  display: block; 
-  margin: 0 auto; 
+canvas {
+  background: #eee;
+  display: block;
+  margin: 0 auto;
   border-radius: 25px;
 }
-.scoreBoard{
+.scoreBoard {
   height: 75px;
   width: 200px;
   margin-bottom: 15px;
   background-color: rgb(231, 231, 231);
 }
-.score{
+.score {
   color: black;
 }
