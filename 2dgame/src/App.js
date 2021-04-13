@@ -11,6 +11,7 @@ import About from './About/about';
 import Store from './Store/store';
 import Settings from './Settings/settings';
 import Stats from './Stats/stats';
+import Error from './error';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/about" component={About}></Route>
           <Route exact path="/store" component={Store}></Route>
           <Route exact path="/settings" component={Settings}></Route>
+          <Route exact path="/error" component={Error}></Route>
           <Route exact path="/*">
               <Redirect to="/menu" />
           </Route>
